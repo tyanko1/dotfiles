@@ -11,8 +11,10 @@ URxvt*depth:                24
 URxvt*borderless: 1
 URxvt*scrollBar:            false
 URxvt*saveLines:  2000
-URxvt.transparent:      true
-URxvt*.shading: 10
+!URxvt.transparent: true
+!URxvt*.shading: 20
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0200/c800
 
 ! Meta modifier for keybindings
 !URxvt.modifier: super
@@ -24,7 +26,7 @@ URxvt.perl-ext: default,url-select,clipboard,selection-to-clipboard
 URxvt.keysym.M-u:           perl:url-select:select_next
 URxvt.url-select.autocopy:  true
 URxvt.url-select.button:    2
-URxvt.url-select.launcher:  chromium
+URxvt.url-select.launcher:  firefox
 URxvt.url-select.underline: true
 
 ! Nastavuje kopirovani
