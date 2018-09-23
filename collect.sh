@@ -10,7 +10,8 @@ dirPaths=($ohMyZsh $fonts $i3)
 zsh="/home/ulysses/.zshrc"
 xdefaults="/home/ulysses/.Xdefaults"
 xinitrc="/home/ulysses/.xinitrc"
-filePaths=($zsh $xdefaults $xinitrc)
+conkyrc="/home/ulysses/.conkyrc"
+filePaths=($zsh $xdefaults $xinitrc $conkyrc)
 
 #collect dirs
 for dir in ${dirPaths[@]}; do cp -R ${dir} .; done 	
